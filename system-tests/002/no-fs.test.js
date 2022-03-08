@@ -3,6 +3,9 @@
 const postcssScss = require('postcss-scss');
 
 const stylelint = require('../../lib');
+const core = require('../../lib/core-entrypoint');
+const scss = require('../../lib/syntaxes/syntax-scss');
+const stylint = require('../../lib');
 const { caseConfig, caseCode, prepForSnapshot } = require('../systemTestUtils');
 
 const CASE_NUMBER = '002';
